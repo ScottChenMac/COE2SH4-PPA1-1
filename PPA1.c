@@ -267,8 +267,8 @@ void LoopDelay(void)
 
 void CleanUp(void)
 {
-    // [TODO]: For now, you only need to call MacUILib_uninit() routine to shut down the MacUILib module.
-
+    // For now, you only need to call MacUILib_uninit() routine to shut down the MacUILib module.
+    MacUILib_uninit();
 
     // In future activities, you will have to add the memory deallocation routines here to ensure no memory leakage.
 }
