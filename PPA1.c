@@ -182,7 +182,7 @@ void RunLogic(void)
     //      1.1 if YES, perform the following
     //           1.1.a  If input command is 'ESC' (or your choice of ASCII character)
     //                  Set exitFlag to true.  Then, in the next program loop iteration, the loop will break, leading to CleanUp() routine and program shutdown.
-    //           1.1.b  If input command is 'SHIFT' (or your choice of ASCII character)
+    //           1.1.b  (Above and Beyond Feature) If input command is 'SHIFT' (or your choice of ASCII character)
     //                  Toggle the marquee rotation direction.  Think about how!
     //           1.1.c  Otherwise, the input command is just a plain character that needs to be added to the marquee display string.
     //                  Update the string contents.
