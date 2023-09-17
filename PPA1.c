@@ -63,6 +63,8 @@ int main(void)
     // Tear-Down
     CleanUp();
 
+    return 0;
+
 }
 
 
